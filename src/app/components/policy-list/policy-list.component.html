@@ -1,0 +1,63 @@
+<div class="list row">
+    <div class="col-md-8">
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Search by Entitlement String"
+          [(ngModel)]="entitlementString"
+        />
+        <div class="input-group-append">
+          <button
+            class="btn btn-outline-secondary"
+            type="button"
+            (click)="searchTitle()"
+          >
+            Search
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <h4>Policies List</h4>
+      <ul class="list-group">
+        <li
+          class="list-group-item"
+          *ngFor="let policy of policies; let i = index"
+          [class.active]="i == currentIndex"
+          (click)="setActivePolicy(policy, i)"
+        >
+          {{ policy.entitlementString }}
+        </li>
+      </ul>
+  
+      <button class="m-3 btn btn-sm btn-danger" (click)="removeAllPolicies()">
+        Remove All
+      </button>
+    </div>
+    <div class="col-md-6">
+      <div *ngIf="currentPolicy.id">
+        <h4>Policy</h4>
+        <div>
+          <label><strong>Entitlement String:</strong></label> {{ currentPolicy.entitlementString }}
+        </div>
+        <div>
+          <label><strong>Gid Type:</strong></label>
+          {{ currentPolicy.gidType }}
+        </div>
+        <div>
+          <label><strong>Attribute Json:</strong></label>
+          {{ currentPolicy.attrJson }}
+        </div>
+  
+        <a class="badge badge-warning" routerLink="/policies/1"><!--"/policies/{{ currentPolicy.entitlementString }}"-->
+          Edit
+        </a>
+      </div>
+  
+      <div *ngIf="!currentPolicy">
+        <br />
+        <p>Please click on a Policy...</p>
+      </div>
+    </div>
+  </div>

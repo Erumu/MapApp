@@ -1,0 +1,19 @@
+{
+  "getAll": [{"id":1,"entitlementString":"Oxytropis mertensiana Turcz.","gidType":"Fuscia","attrJson":"PLN","changedBy":"Edi","changedDate":"4/13/2021","createdBy":"Dasha","createdDate":"11/12/2020","status":true},
+{"id":2,"entitlementString":"Agathosma serratifolia (Curtis) Spreeth","gidType":"Aquamarine","attrJson":"GTQ","changedBy":"Chelsae","changedDate":"12/8/2020","createdBy":"Mareah","createdDate":"3/18/2021","status":false},
+{"id":3,"entitlementString":"Penstemon sudans M.E. Jones","gidType":"Teal","attrJson":"CNY","changedBy":"Nicolis","changedDate":"7/28/2020","createdBy":"Mindy","createdDate":"9/3/2020","status":false},
+{"id":4,"entitlementString":"Cassipourea Aubl.","gidType":"Goldenrod","attrJson":"PHP","changedBy":"Marietta","changedDate":"7/18/2020","createdBy":"Cathyleen","createdDate":"4/7/2021","status":false},
+{"id":5,"entitlementString":"Conyza ramosissima Cronquist","gidType":"Indigo","attrJson":"ETB","changedBy":"Kai","changedDate":"11/27/2020","createdBy":"Crichton","createdDate":"11/29/2020","status":true},
+{"id":6,"entitlementString":"Banisteriopsis lucida (Rich.) Small","gidType":"Aquamarine","attrJson":"CNY","changedBy":"Rebekkah","changedDate":"9/7/2020","createdBy":"Charlena","createdDate":"10/7/2020","status":true},
+{"id":7,"entitlementString":"Lupinus arbustus Douglas ex Lindl. ssp. neolaxiflorus D. Dunn","gidType":"Teal","attrJson":"MNT","changedBy":"Hendrika","changedDate":"3/8/2021","createdBy":"Suzanna","createdDate":"9/21/2020","status":true},
+{"id":8,"entitlementString":"Medicago L.","gidType":"Teal","attrJson":"KES","changedBy":"Cristie","changedDate":"6/19/2021","createdBy":"Marta","createdDate":"1/30/2021","status":false},
+{"id":9,"entitlementString":"Tanacetum balsamita L.","gidType":"Goldenrod","attrJson":"BRL","changedBy":"Oswell","changedDate":"5/28/2021","createdBy":"Sioux","createdDate":"7/28/2020","status":false},
+{"id":10,"entitlementString":"Carex ×arctophila F. Nyl.","gidType":"Goldenrod","attrJson":"SEK","changedBy":"Jeremy","changedDate":"3/28/2021","createdBy":"Kliment","createdDate":"7/10/2020","status":true},
+{"id":11,"entitlementString":"Lythrum maritimum Kunth","gidType":"Pink","attrJson":"AMD","changedBy":"Cull","changedDate":"8/18/2020","createdBy":"Jedidiah","createdDate":"10/25/2020","status":false},
+{"id":12,"entitlementString":"Phaeophyscia ciliata (Hoffm.) Moberg","gidType":"Blue","attrJson":"EUR","changedBy":"Mikkel","changedDate":"6/7/2021","createdBy":"Pattie","createdDate":"8/8/2020","status":false},
+{"id":13,"entitlementString":"Eriogonum argillosum J.T. Howell","gidType":"Crimson","attrJson":"XOF","changedBy":"Susanna","changedDate":"2/25/2021","createdBy":"Dean","createdDate":"2/24/2021","status":false},
+{"id":14,"entitlementString":"Inula L.","gidType":"Green","attrJson":"PHP","changedBy":"Sherilyn","changedDate":"11/6/2020","createdBy":"Rosana","createdDate":"7/23/2020","status":true},
+{"id":15,"entitlementString":"Castilleja exserta (A. Heller) T.I. Chuang & Heckard ssp. latifolia (S. Watson) T.I. Chuang & Heckard","gidType":"Indigo","attrJson":"HNL","changedBy":"Saree","changedDate":"9/16/2020","createdBy":"Ninnetta","createdDate":"4/30/2021","status":true}
+],
+    "getPolicy": [{"id":1,"entitlementString":"Oxytropis mertensiana Turcz.","gidType":"Fuscia","attrJson":"PLN","changedBy":"Edi","changedDate":"4/13/2021","createdBy":"Dasha","createdDate":"11/12/2020","status":true}]
+}

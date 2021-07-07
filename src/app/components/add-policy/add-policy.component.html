@@ -1,0 +1,44 @@
+<div>
+    
+    <div class="submit-form">
+        <p><b>Add New Mapping</b></p><br>
+      <div *ngIf="!submitted">
+        <div class="form-group">
+          <label for="title">Entitlement String</label>
+          <input
+            type="text"
+            class="form-control"
+            id="title"
+
+            name="entitlementString"
+          />
+        </div>
+  
+        <div class="form-group">
+          <label for="Gid Type">Gid Type</label>
+          <input
+            class="form-control"
+            id="gidType"
+            name="gidType"
+          />
+        </div>
+
+        <div class="form-group">
+            <label for="Gid Type">Json Attribute</label>
+            <input
+              class="form-control"
+              id="gidType"
+              name="gidType"
+            />
+          </div>
+
+  
+        <button (click)="savePolicy()" class="btn btn-success">Submit</button>
+      </div>
+  
+      <div *ngIf="submitted">
+        <h4>Policy Mapping was submitted successfully!</h4>
+        <button class="btn btn-success" (click)="newPolicy()">Add</button>
+      </div>
+    </div>
+  </div>

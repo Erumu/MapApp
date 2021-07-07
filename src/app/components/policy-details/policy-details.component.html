@@ -1,0 +1,51 @@
+<div>
+    <div *ngIf="currentPolicy.id" class="edit-form">
+      <h4>Policy</h4>
+      <form>
+        <div class="form-group">
+          <label for="title">Entitlement String</label>
+          <input
+            type="text"
+            class="form-control"
+            id="title"
+            [(ngModel)]="currentPolicy.entitlementString"
+            name="title"
+          />
+        </div>
+        <div class="form-group">
+          <label for="description">Gid Type</label>
+          <input
+            type="text"
+            class="form-control"
+            id="Gid Type"
+            [(ngModel)]="currentPolicy.gidType"
+            name="gidType"
+          />
+        </div>
+  
+        <div class="form-group">
+          <label><strong>Status:</strong></label>
+          {{ currentPolicy.attrJson }}
+        </div>
+      </form>
+  
+  
+      <button class="badge badge-danger mr-2" (click)="deletePolicy()">
+        Delete
+      </button>
+  
+      <button
+        type="submit"
+        class="badge badge-success mb-2"
+        (click)="updatePolicy()"
+      >
+        Update
+      </button>
+      <p>{{ message }}</p>
+    </div>
+  
+    <div *ngIf="!currentPolicy.id">
+      <br />
+      <p>Cannot access this Policy...</p>
+    </div>
+  </div>
